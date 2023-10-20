@@ -1,10 +1,10 @@
-1)String Springboot Project [46330759CityProject]
-2)Add dependency[Web,JPA,Postgress,Lombok]
+1)String Springboot Project [46330756SeriesProject]
+2)Add dependency[Web,JPA,Postgress]
 3)Follow Package Structure(dao,model,controller,service,repository)
 4)Add Dockerfile in your project
 # FROM maven:3.8.5-openjdk-17 # for Java 17
 FROM maven:3.8.2-jdk-8
-WORKDIR /empIdEntityProject
+WORKDIR /Series
 COPY . .
 RUN mvn clean install
 CMD mvn spring-boot:run
